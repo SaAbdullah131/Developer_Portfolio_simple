@@ -24,7 +24,7 @@ nav-title {
     font-size: 45px;
 }
 
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
@@ -42,4 +42,23 @@ nav li {
 
 .text-primary {
     color: orange;
+}
+/* banner styles */
+.banner{
+    display:flex;
+    align-items: center;
+    margin:0 200px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 85px;
+}
+.banner-subtitle{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-description{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
