@@ -166,3 +166,25 @@ padding:30px;
     margin-top:50px;
     text-align: center;
 }
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding:130px 200px;
+}
+.contact .section-title{
+text-align: left;
+}
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border:0px;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
+}
+input{
+    height: 64px;
+}
