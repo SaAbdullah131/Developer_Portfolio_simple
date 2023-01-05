@@ -17,6 +17,17 @@
     padding:18px 35px;
     color:aliceblue
 }
+.btn-secondary{
+     font-weight: 600;
+     font-size:20px;
+     height: 64px;
+    color:lightcoral;
+    background-color:aliceblue;
+    border: 0px;
+    border-radius: 7px;
+    padding:18px 35px;
+    margin-left:10px;
+    }
 .header{
     background:#FFF8F3 ;
     background-image: url(../images/header_bg.png),url(../images/developer.png);
