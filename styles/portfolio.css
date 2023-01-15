@@ -15,7 +15,7 @@
     font-weight: 700;
     font-size: 20px;
     padding:18px 35px;
-    color:aliceblue
+    color:#FD6E0A;
 }
 .btn-secondary{
      font-weight: 600;
@@ -198,4 +198,23 @@ text-align: left;
 }
 input{
     height: 64px;
+}
+.hide {
+    display: none;
+}
+/* responsive design */
+
+@media screen and (max-width:576px) {
+    .skills-container,.resume-content {
+        flex-direction: column;
+        padding: 10px 20px;;
+    }
+}
+/* medium device  */
+@media  screen and (min-width:577px) and (max-width:992px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }
