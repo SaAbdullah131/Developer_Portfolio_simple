@@ -199,9 +199,7 @@ text-align: left;
 input{
     height: 64px;
 }
-.hide {
-    display: none;
-}
+
 /* responsive design */
 
 @media screen and (max-width:576px) {
@@ -226,7 +224,12 @@ input{
     }
     nav ul {
         flex-direction: column;
+        align-items: flex-start;
         gap:20px;
+        padding-left: 20px;
+    }
+    nav li {
+        margin-left:0px;
     }
     .about,.contact{
         padding:20px;
@@ -244,11 +247,16 @@ input{
     .about,.contact{
         padding:20px;
     }
-    .contact {
+    .contact,.banner {
         flex-direction: column;
 
     }
     .contact input[type="text"],input[type="email"],textarea {
         padding:0px 0px 0px 5px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap:20px;
     }
 }
